@@ -1,41 +1,42 @@
-# Практична робота №1. Вступ до аналітики даних та Google Colab
-## Мета роботи
+# Practical Assignment No. 1. Introduction to Data Analytics and Google Colab
 
-Навчитися створювати ноутбуки в хмарному середовищі Google Colab, завантажувати та первинно оглядати табличні дані засобами Pandas, а також виконувати базові векторні обчислення з бібліотекою NumPy.
+## Objective
 
-## Вміст репозиторію
+Learn to create notebooks in the Google Colab cloud environment, load and perform an initial inspection of tabular data with Pandas, and carry out basic vector computations with NumPy.
 
-| Файл | Опис |
-|------|------|
-| `Індивідуальне завдання_Гураль.ipynb` | Ноутбук з розв'язками індивідуальних завдань №1–7 та додаткового завдання ★ |
-| `README.md` | Короткий опис виконаної роботи |
+## Repository Contents
 
-## Використаний набір даних
+| File | Description |
+|------|-------------|
+| `Індивідуальне завдання_Гураль.ipynb` | Notebook with solutions to individual tasks 1–7 and the bonus task ★ |
+| `README.md` | Short description of the completed work |
 
-Тестовий файл `test_sales.csv` (12 рядків, 5 колонок), який створюється в ноутбуці програмно. Імітує записи про транзакції кав'ярні:
+## Dataset Used
 
-| Колонка | Опис |
-|---------|------|
-| `date` | дата транзакції |
-| `hour` | година покупки |
-| `payment` | тип оплати (`card` / `cash`) |
-| `drink` | назва напою |
-| `money` | сума, грн |
+The test file `test_sales.csv` (12 rows, 5 columns), created programmatically in the notebook. It simulates coffee shop transaction records:
 
-> Якщо використовувався інший набір даних (наприклад, `sales.csv` від викладача), вкажіть його назву тут.
+| Column | Description |
+|--------|-------------|
+| `date` | transaction date |
+| `hour` | hour of purchase |
+| `payment` | payment type (`card` / `cash`) |
+| `drink` | drink name |
+| `money` | amount, UAH |
 
-## Що виконано
+> If a different dataset was used (for example, `sales.csv` provided by the instructor), specify its name here.
 
-1. Імпорт `pandas` і `numpy`, виведення їхніх версій.
-2. Створення та зчитування CSV у DataFrame, `head(3)` і `tail(3)`.
-3. Перелік колонок (`df.columns`) і тип цього об'єкта.
-4. Одновимірний масив NumPy (перші 10 парних чисел): сума, середнє, мінімум, максимум, множення на 3.
-5. Двовимірний масив 3×3 з випадковими цілими 1–10, суми за `axis=0` та `axis=1`.
-6. Markdown-комірка із заголовком, списком і напівжирним текстом, пояснення переваг текстових комірок.
-7. Монтування Google Диска, зчитування CSV з Диска, `df.info()`, порівняння типів даних.
-8. ★ Комплексний ноутбук: `head()`, `shape`, `info()`, `describe()`, перетворення колонки `money` на масив NumPy (`to_numpy()`) та обчислення середнього.
+## What Was Done
 
+1. Imported `pandas` and `numpy` and printed their versions.
+2. Created and read a CSV into a DataFrame, then used `head(3)` and `tail(3)`.
+3. Listed the columns (`df.columns`) and checked the type of that object.
+4. One-dimensional NumPy array (first 10 even numbers): sum, mean, minimum, maximum, multiplication by 3.
+5. Two-dimensional 3×3 array of random integers from 1 to 10, sums along `axis=0` and `axis=1`.
+6. Markdown cell with a heading, a list, and bold text, plus an explanation of the benefits of text cells.
+7. Mounted Google Drive, read a CSV from Drive, ran `df.info()`, and compared data types.
+8. ★ Comprehensive notebook: `head()`, `shape`, `info()`, `describe()`, converting the `money` column to a NumPy array (`to_numpy()`) and computing its mean.
 
+## Tools
 
 - Python 3
 - Google Colab
