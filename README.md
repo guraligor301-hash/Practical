@@ -8,8 +8,8 @@ datasets with `merge`, `concat` and `join`.
 
 | File | Description |
 |------|-------------|
-| `Surname_Lb5.ipynb` | Practical part, Steps 1–10 (coffee sales dataset). |
-| `Surname_Lb5_individual.ipynb` | Individual tasks 1–7 and the bonus task (★). |
+| `Surname_Lb4.ipynb` | Practical part, Steps 1–10 (coffee sales dataset). |
+| `Surname_Lb4_individual.ipynb` | Individual tasks 1–7 and the bonus task (★). |
 | `README.md` | This file. |
 
 > Replace `Surname` in the notebook names with your own surname in English
