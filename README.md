@@ -1,4 +1,4 @@
-# Practical Work No. 5 — Aggregation and Grouping
+# Practical Work No. 4 — Aggregation and Grouping
 
 This repository contains the solution to the practical work on aggregation and
 grouping in Pandas: `groupby`, `agg`, `pivot_table`, `crosstab`, and combining
